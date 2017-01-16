@@ -1,0 +1,14 @@
+Read Me
+
+CargoBox Load
+
+CargoBox=Land_CargoBox_V1_F   Orange Cargobox
+
+Truck=rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy
+
+Place in the Init of Truck:
+
+this addaction ["<t color=""#F7C307"">" + "Load Small Orange CargoBox", "cargoload\load.sqf", [0,-1.0,0.5]]; 
+
+
+cargoload Folder 2 files "load" "detach"
